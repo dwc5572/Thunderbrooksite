@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/rusticBackground.jpeg");
+    background-color: peru;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav {
+    margin-right: 20px;
+}
+header nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+#galleryTable
+{
+    justify-content: space-evenly;
+}
+.content {
+    display: flex;
+    color: #ffd03e
+}
+h2, label {
+    color: #836eff;
+}
+.content .sidebar {
+    width:  600px;
+    padding: 30px 45px;
+    flex-wrap: wrap;
+}
+
+
+
+.content .displayContent {
+    padding: 25px;
+}
+#index {
+    display: flex;
+    text-wrap: normal;
+}
+#index2 {
+    display: flex;
+    text-wrap: revert;
+}
+
+footer {
+    text-align: center;
+    color: #ffd03e;
+    font-size: medium;
+}
+
+footer a {
+    margin: 20px;
+}
