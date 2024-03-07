@@ -12,7 +12,7 @@ header nav {
     margin-right: 21px;
 }
 header nav li {
-    display: inline-block;
+    display: flex;
     list-style-type: none;
     margin: 20px;
 }
